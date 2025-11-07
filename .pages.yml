@@ -1,3 +1,4 @@
 media:
-  input: assets/img/uploads
-  output: /assets/img/uploads
+  input: assets/img
+  output: /assets/img
+
