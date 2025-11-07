@@ -8,6 +8,7 @@ content:
     label: Posts
     type: collection
     path: _posts
+    format: code
     view:
       fields: [ title, date ]
     fields:
