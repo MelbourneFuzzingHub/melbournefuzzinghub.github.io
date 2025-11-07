@@ -2,3 +2,14 @@ media:
   input: assets/img
   output: /assets/img
 
+content:
+  # Blog posts collection
+  - name: posts
+    label: Posts
+    type: collection
+    path: _posts
+    fields:
+      - { label: Title, name: title, type: string }
+      - { label: Subtitle, name: subtitle, type: string, required: false }
+      - { label: Date, name: date, type: date }
+
