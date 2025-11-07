@@ -19,4 +19,7 @@ content:
       - { label: Category, name: category, type: string }
       - { label: Author, name: author, type: string }
       - { label: Body, name: body, type: rich-text }
+      - { label: Layout, name: layout, type: string }
+      - { label: Optimized_Image, name: optimized_image, type: image }
+      - { label: Tags, name: tags, type: string }
 
