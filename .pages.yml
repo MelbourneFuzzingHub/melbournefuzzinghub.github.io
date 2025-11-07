@@ -14,5 +14,8 @@ content:
       - { label: Title, name: title, type: string }
       - { label: Subtitle, name: subtitle, type: string, required: false }
       - { label: Date, name: date, type: date }
+      - { label: Image, name: image, type: image }
+      - { label: Category, name: category, type: string }
+      - { label: Author, name: author, type: string }
       - { label: Body, name: body, type: rich-text }
 
